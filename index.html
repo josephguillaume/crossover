@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Crossover point scenarios by josephguillaume</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Crossover point scenarios</h1>
+          <h2>Stress testing of management recommendations, by iterative reflection on crossover point scenarios</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/josephguillaume/crossover/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/josephguillaume/crossover/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/josephguillaume/crossover" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <p>Quick link to <a href="#tools">tools</a></p>
+
+<h2>
+<a id="what-is-a-crossover-point-scenario" class="anchor" href="#what-is-a-crossover-point-scenario" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is a crossover point scenario?</h2>
+
+<ul>
+<li>Suppose you are comparing management alternatives. Crossover point scenarios are combinations of values of variables where cost-benefit or other trade-off analysis frameworks show two alternatives to be of equal value. </li>
+<li><p>There is a crossover at this point between which of the two management alternatives has greater value than the other. The set of crossover points therefore demarcates a boundary at which the analysis crosses over from favouring one alternative to the other. </p></li>
+<li><p>If a crossover point scenario occurs, a recommended management alternative may no longer be worthwhile. Scenarios describing crossover points are therefore particularly suitable to help test the robustness of recommendations.</p></li>
+<li><p>Other similar concepts include break-even points, switch-over points, indifference curves, isoquant curves</p></li>
+</ul>
+
+<h2>
+<a id="what-does-the-stress-testing-method-involve" class="anchor" href="#what-does-the-stress-testing-method-involve" aria-hidden="true"><span class="octicon octicon-link"></span></a>What does the stress-testing method involve?</h2>
+
+<ul>
+<li><p>The analyst defines management alternatives to test, competing alternatives, a model (e.g. cost-benefit analysis), and preliminary limits of concern for each uncertain variable in the model - maximum and minimum values beyond which a crossover point would be of no concern.</p></li>
+<li><p>This tools provided from this site are used iteratively to identify crossover points scenarios while varying one, two or many variables. </p></li>
+<li><p>The resulting scenarios are intended to help prompt changes to model assumptions, management alternatives and the limits of concern, after which the analysis can be run again. The scenarios help iteratively build understanding of the problem at hand.</p></li>
+</ul>
+
+<p><img src="./ga3.png" alt="Crossover point scenario method"></p>
+
+<h2>
+<a id="when-is-this-method-applicable" class="anchor" href="#when-is-this-method-applicable" aria-hidden="true"><span class="octicon octicon-link"></span></a>When is this method applicable?</h2>
+
+<p>This use of crossover points is applicable to a class of problems  we describe here as <strong>“reflective stress-testing of a model-based recommendation.”</strong> The emphasis is on supporting the analyst’s iterative reflection to enable learning about robustness of recommendations despite poor <em>a priori</em> knowledge about uncertainty. The problem is characterised by:</p>
+
+<ul>
+<li>  An existing analysis, by which management alternatives can be compared according to clear quantitative criteria, based on best available information</li>
+<li>  An existing preferred alternative select using that model, and known competing alternatives</li>
+<li>  Need to determine robustness of the recommended alternative in the presence of uncertainty </li>
+<li>  Uncertain probability distribution and bounds, precluding uncertainty quantification</li>
+<li>  Reflection on scenarios can help to prompt revision of alternatives, criteria, and understanding of uncertainty, making a posteriori use of tacit or previously unconsolidated knowledge</li>
+<li>  Iteration prompted by reflection is possible, notably because the model can easily be interactively modified and nearly instantaneously re-run. An analyst may however be willing to tolerate short delays between iterations.</li>
+</ul>
+
+<h2>
+<a id="-tools" class="anchor" href="#-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a><a name="tools"></a> Tools</h2>
+
+<h3>
+<a id="excel-add-in" class="anchor" href="#excel-add-in" aria-hidden="true"><span class="octicon octicon-link"></span></a>Excel add-in</h3>
+
+<ul>
+<li>xlam file (<a href="./CrossoverAddon.xlam">CrossoverAddon.xlam</a>)</li>
+<li>
+<a href="./CrossoverAddon%20howto.docx">Howto</a> for use of the add-in</li>
+<li>Demo using comparison of water footprints of two diets (<a href="./change%20in%20diet%20footprint%20crossover%20example.xlsx">change in diet footprint crossover example.xlsx</a>)</li>
+</ul>
+
+<h3>
+<a id="web-tool" class="anchor" href="#web-tool" aria-hidden="true"><span class="octicon octicon-link"></span></a>Web tool</h3>
+
+<ul>
+<li>Web-based spreadsheet-type tool (<a href="http://josephguillaume.ocpu.io/breakdown/www/">link</a>).</li>
+<li>
+<a href="https://github.com/josephguillaume/breakdown">Code</a> for the tool</li>
+</ul>
+
+<h3>
+<a id="other-implementations" class="anchor" href="#other-implementations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other implementations</h3>
+
+<ul>
+<li>A version of the functions in R was written for an analysis of managed aquifer recharge as a water storage solution (<a href="http://dx.doi.org/10.5281/zenodo.11704">Archived code</a>)</li>
+</ul>
+
+<p>Arshad, Muhammad, Joseph Guillaume, and Andrew Ross. 2014. “Assessing the Feasibility of Managed Aquifer Recharge for Irrigation under Uncertainty.” Water 6 (9). Multidisciplinary Digital Publishing Institute: 2748–69. doi:10.3390/w6092748</p>
+
+<h1>
+<a id="related-methods" class="anchor" href="#related-methods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Related methods</h1>
+
+<h3>
+<a id="morepomore" class="anchor" href="#morepomore" aria-hidden="true"><span class="octicon octicon-link"></span></a>MORE/POMORE</h3>
+
+<p>These methods similarly identify crossover points, primarily for the purpose of ranking uncertain variables in order of importance. They refer to crossover points as points of rank equivalence, and the <strong>rank equivalence boundary</strong>.</p>
+
+<ul>
+<li><p>Ravalico, Jakin K., Holger R. Maier, and Graeme C. Dandy. 2009. “Sensitivity Analysis for Decision-Making Using the MORE method—A Pareto Approach.” Reliability Engineering &amp; System Safety 94 (7): 1229–37. doi:10.1016/j.ress.2009.01.009</p></li>
+<li><p>Ravalico, J.K., G.C. Dandy, and H.R. Maier. 2010. “Management Option Rank Equivalence (MORE) – A New Method of Sensitivity Analysis for Decision-Making.” Environmental Modelling &amp; Software 25 (2): 171–81. doi:10.1016/j.envsoft.2009.06.012</p></li>
+<li><p>Hyde, K.M., and H.R. Maier. 2006. “Distance-Based and Stochastic Uncertainty Analysis for Multi-Criteria Decision Analysis in Excel Using Visual Basic for Applications.” Environmental Modelling &amp; Software 21 (12): 1695–1710. doi:10.1016/j.envsoft.2005.08.004</p></li>
+<li><p>Hyde, K M, H R Maier, and C B Colby. 2005. “A Distance-Based Uncertainty Analysis Approach to Multi-Criteria Decision Analysis for Water Resource Decision Making.” Journal of Environmental Management 77 (4): 278–90. doi:10.1016/j.jenvman.2005.06.011</p></li>
+</ul>
+
+<h3>
+<a id="scenario-discovery-and-decision-scaling" class="anchor" href="#scenario-discovery-and-decision-scaling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Scenario discovery and decision scaling</h3>
+
+<p>As the complement of crossover points, these approaches can be used to identify the ranges of variables for which one alternative is better than the other.</p>
+
+<ul>
+<li><p>Bryant, Benjamin P., and Robert J. Lempert. 2010. “Thinking inside the Box: A Participatory, Computer-Assisted Approach to Scenario Discovery.” Technological Forecasting and Social Change 77 (1): 34–49. doi:10.1016/j.techfore.2009.08.002</p></li>
+<li><p>Brown, Casey, Yonas Ghile, Mikaela Laverty, and Ke Li. 2012. “Decision Scaling: Linking Bottom-up Vulnerability Analysis with Climate Projections in the Water Sector.” Water Resources Research 48 (9): n/a – n/a. doi:10.1029/2011WR011212</p></li>
+</ul>
+        </section>
+
+        <footer>
+          Crossover point scenarios is maintained by <a href="https://github.com/josephguillaume">josephguillaume</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+                  <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-69495935-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+      </div>
+    </div>
+  </body>
+</html>
