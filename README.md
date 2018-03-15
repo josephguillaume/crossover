@@ -38,8 +38,8 @@ This use of crossover points is applicable to a class of problems  we describe h
 
 ### Excel add-in
 * xlam file ([CrossoverAddon.xlam](./CrossoverAddon.xlam))
-* [Howto](./CrossoverAddon howto.docx) for use of the add-in
-* Demo using comparison of water footprints of two diets ([change in diet footprint crossover example.xlsx](./change in diet footprint crossover example.xlsx))
+* [Howto](./CrossoverAddon%20howto.docx) for use of the add-in
+* Demo using comparison of water footprints of two diets ([change in diet footprint crossover example.xlsx](./change%20in%20diet%20footprint%20crossover%20example.xlsx))
 
 ### Web tool
 
@@ -48,7 +48,7 @@ This use of crossover points is applicable to a class of problems  we describe h
 
 ### Other implementations
 
-* A version of the functions in R was written for an analysis of managed aquifer recharge as a water storage solution ([Archived code](http://dx.doi.org/10.5281/zenodo.11704)
+* A version of the functions in R was written for an analysis of managed aquifer recharge as a water storage solution ([Archived code](http://dx.doi.org/10.5281/zenodo.11704))
 
 Arshad, Muhammad, Joseph Guillaume, and Andrew Ross. 2014. “Assessing the Feasibility of Managed Aquifer Recharge for Irrigation under Uncertainty.” Water 6 (9). Multidisciplinary Digital Publishing Institute: 2748–69. doi:10.3390/w6092748
 
